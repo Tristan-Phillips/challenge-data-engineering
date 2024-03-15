@@ -1,5 +1,5 @@
 {
-    "vaccine_supply": [
+    "regional_vaccine_supply": [
       {
         "region": "North Verdania",
         "region_warehouse_name": "Arctic Depot",
@@ -9,7 +9,7 @@
             "vaccine_type": "Pfizer",
             "supply_dates": [
               {"date": "2024-01-01", "amount": 3000},
-              {"date": "2024-01-15", "amount": 5000},
+              {"date": "2024-01-15", "amount": null},
               {"date": "2024-02-01", "amount": 6000},
               {"date": "2024-02-15", "amount": 6000},
               {"date": "2024-03-01", "amount": 7000},
@@ -22,7 +22,7 @@
               {"date": "2024-01-05", "amount": 400},
               {"date": "2024-01-20", "amount": 600},
               {"date": "2024-02-05", "amount": 800},
-              {"date": "2024-02-20", "amount": 600},
+              {"date": "2024-02-20", "amount": null},
               {"date": "2024-03-05", "amount": 400},
               {"date": "2024-03-20", "amount": 600}
             ]
@@ -38,8 +38,8 @@
             "vaccine_type": "Johnson & Johnson",
             "supply_dates": [
               {"date": "2024-01-10", "amount": 70},
-              {"date": "2024-01-25", "amount": 50},
-              {"date": "2024-02-10", "amount": 60},
+              {"date": "2024-01-25", "amount": null},
+              {"date": "2024-02-10", "amount": null},
               {"date": "2024-02-25", "amount": 50},
               {"date": "2024-03-10", "amount": 60},
               {"date": "2024-03-25", "amount": 50}
@@ -110,7 +110,7 @@
               {"date": "2024-01-20", "amount": 510},
               {"date": "2024-02-05", "amount": 490},
               {"date": "2024-02-20", "amount": 580},
-              {"date": "2024-03-05", "amount": 450},
+              {"date": "2024-03-05", "amount": null},
               {"date": "2024-03-20", "amount": 620}
             ]
           }
