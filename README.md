@@ -16,7 +16,7 @@ The following is a guideline of the minimal steps to follow:
 
 1. Flatten the JSON Structure:
 
-Write a program or script to flatten the nested JSON structure into a flat table. Each row should represent a unique combination of region, vaccine type, date, and amount of supply.
+Write a Python program or script to flatten the nested JSON structure for vaccine_supply into a flat table. Each row should represent a unique combination of region, vaccine type, date, and amount of supply. Save this as a CSV file.
 
 2. Create a CSV for Vaccine Information:
 
@@ -26,18 +26,18 @@ Extract information about each vaccine from the "vaccine_information" section an
 
 Design a relational database model to store the data. Use SQL to create the necessary tables and define relationships.
 
-4. Handle Missing Values:
-
-Handle cases where certain supply dates are not present for a particular region or vaccine type. Use appropriate placeholders (e.g., NULL or 0) for missing values.
-
-5. Generate a CSV Output for Vaccine Supply:
-
-Save the flattened supply data as a CSV file named "flattened_vaccine_supply.csv".
-
-6. Documentation:
+4. Documentation:
 
 Provide a brief explanation of your code, including any assumptions or design choices made during the flattening process and database model design.
 
-7. Bonus - Version control:
+5. Bonus - Version control:
 
 Submit your challenge using a version control system, such as Github, to demonstrate use of versioning.
+
+
+### Submission
+
+Please use this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScwizyvB4R-XgYID58OybeE-mCB-C1g0keA0s_7tBuYzEyh4w/viewform?usp=sf_link) for submission using either one of the two options to do so:
+
+1. A URL to the online repository using a version control system, such as Github.
+2. Upload a zipped folder containing your code, CSV files and documentation.
