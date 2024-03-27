@@ -16,11 +16,11 @@ The following is a guideline of the minimal steps to follow:
 
 1. Flatten the JSON Structure:
 
-Write a Python program or script to flatten the nested JSON structure for vaccine_supply into a flat table. Each row should represent a unique combination of region, vaccine type, date, and amount of supply. Save this as a CSV file.
+Write a Python program or script to flatten the nested JSON structure for vaccine_supply into a flat table. Each row should represent a unique combination of the data. Save this as a CSV file.
 
 2. Create a CSV for Vaccine Information:
 
-Extract information about each vaccine from the "vaccine_information" section and save it as a separate CSV file named "vaccine_information.csv". Include columns for vaccine type, manufacturer, storage conditions, and doses required.
+Extract information about each vaccine from the "vaccine_information" section and save it as a separate CSV file named "vaccine_information.csv".
 
 3. Design a Relational Database Model:
 
